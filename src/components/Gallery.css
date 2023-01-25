@@ -1,0 +1,89 @@
+.container {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+
+}
+
+.gallery {
+    background-color: rgb(219, 169, 93);
+    margin-top: 100px;
+    width: 98%;
+}
+
+.inputs {
+    border-radius: 20px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 45%;
+}
+
+.inputs input {
+    background-color: rgb(247, 247, 247);
+    padding: 1.5%;
+    border-radius: 20px;
+
+    margin: 0.4%;
+    font-size: 100%;
+    width: 50%;
+}
+
+.inputs input.file {
+    background-color: brown;
+    width: 30%;
+    padding: 1.5%;
+    cursor: pointer;
+}
+
+.inputs button {
+    background-color: green;
+    padding: 1%;
+    font-size: 100%;
+    margin: 0.5%;
+    border-radius: 20px;
+    border: none;
+    width: 10%;
+    color: #fff;
+}
+
+
+.imag {
+    background-color: rgb(170, 221, 162);
+    border: 1px solid #fff;
+    width: 20%;
+    margin: 1%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+img {
+    margin: 2%;
+    width: 250px;
+    height: 150px;
+}
+
+.imag button {
+    background-color: green;
+    padding: 2%;
+    font-size: 93%;
+    margin: 1%;
+    border-radius: 20px;
+    border: none;
+    width: 45%;
+    color: #fff;
+}
+
+.imag button.del {
+    background-color: red;
+}
+
+.qrcode {
+  
+    background-color: #fff;
+    display: block;
+    padding-top: 1%;
+   
+    
+
+}
